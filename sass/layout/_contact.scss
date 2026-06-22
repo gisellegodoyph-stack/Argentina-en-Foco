@@ -1,0 +1,29 @@
+.contact{
+    background-color: $section-bg;
+
+    form{
+        background-color: $white;
+    }
+
+    iframe{
+        width: 100%;
+    }
+}
+
+.contact-info{
+
+    i{
+        color: $primary-color;
+        margin-right: 10px;
+    }
+}
+
+.contact-link{
+    color: $primary-color;
+    font-weight: 600;
+    display: inline-block;
+
+    &:hover{
+        color: #4b7250;
+    }
+}

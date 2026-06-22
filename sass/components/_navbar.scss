@@ -1,0 +1,16 @@
+.nav-link{
+    @include transition;
+
+    &:hover{
+        color: $primary-color;
+    }
+
+    &.active{
+        color: $primary-color !important;
+        font-weight: 600;
+    }
+}
+
+.brand-color{
+    color: $primary-color;
+}

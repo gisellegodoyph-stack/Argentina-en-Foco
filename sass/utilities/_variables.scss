@@ -1,0 +1,13 @@
+$primary-color: #5c8374;
+$primary-hover: #4b6b5f;
+
+$body-bg: #f8f6f2;
+$section-bg: #f3f1eb;
+
+$footer-bg: #1f372e;
+
+$white: #ffffff;
+
+@mixin transition {
+    transition: .3s;
+}

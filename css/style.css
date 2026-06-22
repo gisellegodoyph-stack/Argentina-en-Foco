@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f8f6f2;
+}
+
+.nav-link {
+  transition: 0.3s;
+}
+.nav-link:hover {
+  color: #5c8374;
+}
+.nav-link.active {
+  color: #5c8374 !important;
+  font-weight: 600;
+}
+
+.brand-color {
+  color: #5c8374;
+}
+
+.btn-custom {
+  transition: 0.3s;
+}
+
+.btn-custom {
+  background-color: #5c8374;
+  color: #ffffff;
+  border: none;
+}
+.btn-custom:hover {
+  background-color: #4b6b5f;
+  transform: scale(1.03);
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #ffffff;
+}
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.card img {
+  height: 250px;
+  object-fit: cover;
+}
+
+body {
+  background-color: #f8f6f2;
+}
+
+.activities {
+  background-color: #f3f1eb;
+}
+
+.contact {
+  background-color: #f3f1eb;
+}
+.contact form {
+  background-color: #ffffff;
+}
+.contact iframe {
+  width: 100%;
+}
+
+.contact-info i {
+  color: #5c8374;
+  margin-right: 10px;
+}
+
+.contact-link {
+  color: #5c8374;
+  font-weight: 600;
+  display: inline-block;
+}
+.contact-link:hover {
+  color: #4b7250;
+}
+
+.footer-custom {
+  background-color: #1f372e;
+}
+
+@media (max-width: 768px) {
+  section {
+    padding: 60px 0;
+  }
+  .section-header h2 {
+    font-size: 2rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

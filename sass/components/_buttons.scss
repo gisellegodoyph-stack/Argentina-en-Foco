@@ -1,0 +1,16 @@
+%transition-base{
+    transition: .3s;
+}
+
+.btn-custom{
+    @extend %transition-base;
+
+    background-color: $primary-color;
+    color: $white;
+    border: none;
+
+    &:hover{
+        background-color: $primary-hover;
+        transform: scale(1.03);
+    }
+}
